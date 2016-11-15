@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+input {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+form {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 0%;
+}
+
+#app {
+  position: relative;
+  margin-top: 0px;
+}
+
+#main {
+  margin-bottom: 75px;
+  overflow: auto;
+}
+
+#header {
+  background-color: black;
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 31px;
+}
+
+#stream {
+  text-align: left;
+  font-size: 14px;
+}
+
+#subs {
+  text-align: left;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+#posts {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+.container {
+  background:rgba(255,255,255,0.7);
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  margin-top: -75px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding: 20px 20px;
+  background-color: rgb(44, 62, 80);
+  color: white;
+  margin-left: 31px;
+}
